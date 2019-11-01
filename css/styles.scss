@@ -65,10 +65,30 @@ body{
 
   .who{
 
+    .who__title{
+      margin-top: 5%;
+    }
+
+    .who__container{
+      padding: 5%;
+    }
+
   }
 
   .contact{
-
+    .contact__title{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .row{
+      margin-bottom: 20%;
+      figure{
+        margin-bottom: 8%;
+        img{
+          max-width: 40%;
+        }
+      }
+    }
   }
 }
 
@@ -82,6 +102,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
+
     .what__content{
       padding: 0 15% 0 15%;
       margin-left: 5%;
@@ -90,6 +111,35 @@ body{
     .what__development{
       padding: 0 15% 0 15%;
       margin-right: 5%;
+    }
+
+  }
+
+  .who__container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+
+    .who__text1{
+      padding: 0 15% 0 15%;
+      margin-left: 5%;
+    }
+
+    .who__text2{
+      padding: 0 15% 0 15%;
+      margin-right: 5%;
+    }
+
+  }
+
+  .contact{
+    .row{
+      margin-bottom: -5%;
+      figure{
+        figcaption{
+          font-size: 1.5em;
+        }
+      }
     }
   }
 
