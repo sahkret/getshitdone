@@ -55,6 +55,11 @@ body{
   }
 
   .what{
+    margin-bottom: 5%;
+
+    #container{
+      padding: 5%;
+    }
 
   }
 
@@ -65,4 +70,27 @@ body{
   .contact{
 
   }
+}
+
+@media screen and (min-width: 786px){
+
+  .landing__img{
+
+  }
+
+  #container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    .what__content{
+      padding: 0 15% 0 15%;
+      margin-left: 5%;
+    }
+
+    .what__development{
+      padding: 0 15% 0 15%;
+      margin-right: 5%;
+    }
+  }
+
 }
